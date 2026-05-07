@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Gallery from "@/components/sections/Gallery";
+import UniversityGallery from "@/components/sections/UniversityGallery";
 import HODMessage from "@/components/sections/HODMessage";
 import VisionMission from "@/components/sections/VisionMission";
 import Programs from "@/components/sections/Programs";
@@ -63,6 +64,7 @@ export default function Home() {
         <Hero />
         <About />
         <Gallery />
+        <UniversityGallery />
         <HODMessage />
         <VisionMission />
         <Programs />
